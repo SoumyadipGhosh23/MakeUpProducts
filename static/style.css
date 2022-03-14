@@ -23,7 +23,7 @@ body{
     grid-row-end: 5;
     color: #fff;
     display: grid;
-    grid-template-rows: 1fr auto repeat(4, 5fr);
+    grid-template-rows: 1fr 1fr 4fr 2fr 5fr;
     justify-content: center;
     padding-top: 20%;
 }
@@ -33,31 +33,140 @@ body{
 .logoandcategory{
     display: grid;
     font-family: 'Overlock', cursive;
-    grid-template-rows: 2fr auto repeat(4, 2fr);
+    grid-template-rows: repeat(4, 2fr);
     justify-items: center;
     align-items: center;
-    grid-gap: 7%;
+    grid-gap: 1%;
 }
 .line{
     border-top: 1px solid white;
-    margin: 15% 25%;
+    margin: 20% 25%;
+}
+
+.socialmedia{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+.ratings{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Overlock', cursive;
+}
+.cursor{
+    cursor: pointer;
+    pointer-events: auto;
+}
+.ratings.stars.cursor:hover{
+    cursor: pointer;
+    pointer-events: auto;
+}
+.differentProducts{
+    cursor: pointer;
 }
 .nav{
+    font-family: 'Overlock', cursive;
     background-color: white;
+    color: #FF7BA9;
+    display: flex;
+    flex-direction: row;
     position: sticky;
+    padding: 2% 2%;
 }
+.search{
+    flex: 3;
+}
+/* .accounts{
+    flex: 3;
+    padding-left: 20%;
+} */
 .tag{
-    background-color:  white;
+    background-color: rgb(252, 250, 250);
+    color: #FF7BA9;
     position: sticky;
+    font-family: 'Overlock', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
+}
+.expert{
+    grid-area: experts;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+}
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(252, 250, 250);
+    line-height: 1.8em;
+    padding: 2% 0;
+}
+.btn{
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding: 2%;
+    background-color: #F10086;
+    border-radius: 5%;
+}
+.card-img-top{
+    width: 40%;
+}
+.items1{
+    grid-area: items1;
+}
+.items2{
+    grid-area: items2;
+}
+.items3{
+    grid-area: items3;
+}
+.items4{
+    grid-area: items4;
+}
+.items5{
+    grid-area: items5;
+}
+.items6{
+    grid-area: items6;
 }
 .body{
     background-color:  white;
+    color: #FF7BA9;
+    padding: 0 2%;
+    font-family: 'Overlock', cursive;
     overflow-y: auto;
+    display: grid;
+    grid-template-areas: 
+    'experts experts experts'
+    'items1 items2 items3'
+    'items4 items5 items6';
+    grid-gap: 10px;
+   
+}
+
+/* visibility control */
+#d{
+    display: grid;
+}
+#j{
+    display: none;
 }
 .footer{
     background-color:  white;
     position: sticky;
+    text-align: center;
+    padding: 1%;
 }
 ::-webkit-scrollbar{
     width: 1px;

@@ -7,34 +7,227 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Sparkles</title>
 
+
+
     <!--Icon-->
     <link rel="icon" href="/img/favicon.ico">
     <!--Font Awrsome-->
     <script src="https://kit.fontawesome.com/0da27216f3.js" crossorigin="anonymous"></script>
+     
 
     <link rel="stylesheet" href="/static/style.css">
 
+   
 </head>
 
 <body>
 
     <section id="container">
         <div class="index">
-            <h2 class="logo"><i class="fa-solid fa-palette" style="padding-right: 8px;"></i>The Sparkles</h2>
+            <h2 class="logo"><i class="fa-solid cursor fa-palette" style="padding-right: 8px;"></i>The Sparkles</h2>
             <hr class="line">
             <div class="logoandcategory">
-                <span>Makeup Products</span>
-                <span>Skin Care</span>
-                <span>Gentle Products For Kids</span>
-                <span>SALES</span>
+                <span onclick="change()"  class="differentProducts">Makeup Products</span>
+                <span onclick="change1()" class="differentProducts">Skin Care</span>
+                <span class="differentProducts">Gentle Products For Kids</span>
+                <span class="differentProducts">SALES</span>
             </div>
-            <div class="socialmedia"></div>
-            <div class="ratings"></div>
+            <div class="socialmedia"><i class="fa-brands  cursor fa-facebook"></i> <i
+                    class="fa-brands cursor fa-instagram"></i> <i class="fa-brands cursor fa-amazon"></i></div>
+            <div class="ratings">
+                <span>Ratings</span>
+                <br>
+                <div class="stars"><i class="fa-solid cursor fa-star"></i><i class="fa-solid cursor fa-star"></i><i
+                        class="fa-solid cursor fa-star"></i><i class="fa-solid cursor fa-star"></i><i
+                        class="fa-solid cursor fa-star-half-stroke"></i></div>
+                <br><span>Ratings : 4.5</span><br><span>1789 Reviews</span>
+            </div>
         </div>
-        <div class="nav"></div>
-        <div class="tag"></div>
-        <div class="body"></div>
-        <div class="footer"></div>
+        <div class="nav">
+            <div class="search"><i class="fa-solid fa-magnifying-glass"></i> &nbsp; <span>Search</span></div>
+            <div class="accounts"><i class="fa-solid fa-user"></i> &nbsp; <span>Accounts</span>&nbsp; &nbsp; <i
+                    class="fa-solid fa-cart-shopping"></i> &nbsp; <span>Cart</span></div>
+        </div>
+        <div class="tag">
+            <h3>Your Beauty, Our Passion</h3>
+            <br>
+            <p>New Collections</p>
+        </div>
+        <div class="body" id="d">
+            <div class="expert">
+                <p>Treat your makeup like jewelry for the face. Play with colors, shapes, structure—it can transform
+                    you.</p>
+            </div>
+            <div class="items1  items">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/makeup1.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h4 class="card-title">RENEE FAB 5 Matte Finish 5 in 1 Lipstick 7.5G</h4>
+                      <p class="card-text">-26% <strong>₹555.00</strong> </p>
+                      <div class="stars" style="color: gold;"><i class="fa-solid cursor fa-star"></i><i class="fa-solid cursor fa-star"></i><i
+                        class="fa-solid cursor fa-star"></i><i class="fa-solid cursor fa-star"></i><i
+                        class="fa-solid cursor fa-star-half-stroke"></i></div>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="items2 items">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/makeup1.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h4 class="card-title">RENEE FAB 5 Matte Finish 5 in 1 Lipstick 7.5G</h4>
+                      <p class="card-text">-26% <strong>₹555.00</strong> </p>
+                      <div class="stars" style="color: gold;"><i class="fa-solid cursor fa-star"></i><i class="fa-solid cursor fa-star"></i><i
+                        class="fa-solid cursor fa-star"></i><i class="fa-solid cursor fa-star"></i><i
+                        class="fa-solid cursor fa-star-half-stroke"></i></div>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="items3 items">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/makeup1.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h4 class="card-title">RENEE FAB 5 Matte Finish 5 in 1 Lipstick 7.5G</h4>
+                      <p class="card-text">-26% <strong>₹555.00</strong> </p>
+                      <div class="stars" style="color: gold;"><i class="fa-solid cursor fa-star"></i><i class="fa-solid cursor fa-star"></i><i
+                        class="fa-solid cursor fa-star"></i><i class="fa-solid cursor fa-star"></i><i
+                        class="fa-solid cursor fa-star-half-stroke"></i></div>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="items4 items">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/makeup1.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h4 class="card-title">RENEE FAB 5 Matte Finish 5 in 1 Lipstick 7.5G</h4>
+                      <p class="card-text">-26% <strong>₹555.00</strong> </p>
+                      <div class="stars" style="color: gold;"><i class="fa-solid cursor fa-star"></i><i class="fa-solid cursor fa-star"></i><i
+                        class="fa-solid cursor fa-star"></i><i class="fa-solid cursor fa-star"></i><i
+                        class="fa-solid cursor fa-star-half-stroke"></i></div>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="items5 items">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/makeup1.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h4 class="card-title">RENEE FAB 5 Matte Finish 5 in 1 Lipstick 7.5G</h4>
+                      <p class="card-text">-26% <strong>₹555.00</strong> </p>
+                      <div class="stars" style="color: gold;"><i class="fa-solid cursor fa-star"></i><i class="fa-solid cursor fa-star"></i><i
+                        class="fa-solid cursor fa-star"></i><i class="fa-solid cursor fa-star"></i><i
+                        class="fa-solid cursor fa-star-half-stroke"></i></div>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="items6 items">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/makeup1.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h4 class="card-title">RENEE FAB 5 Matte Finish 5 in 1 Lipstick 7.5G</h4>
+                      <p class="card-text">-26% <strong>₹555.00</strong> </p>
+                      <div class="stars" style="color: gold;"><i class="fa-solid cursor fa-star"></i><i class="fa-solid cursor fa-star"></i><i
+                        class="fa-solid cursor fa-star"></i><i class="fa-solid cursor fa-star"></i><i
+                        class="fa-solid cursor fa-star-half-stroke"></i></div>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+        <!-- skin care products section -->
+
+
+        <div class="body" id="j">
+            <div class="expert">
+                <p>Treat your makeup like jewelry for the face. Play with colors, shapes, structure—it can transform
+                    you. YOOO YOOOO</p>
+            </div>
+            <div class="items1  items">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/makeup1.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h4 class="card-title">RENEE FAB 5 Matte Finish 5 in 1 Lipstick 7.5G</h4>
+                      <p class="card-text">-26% <strong>₹555.00</strong> </p>
+                      <div class="stars" style="color: gold;"><i class="fa-solid cursor fa-star"></i><i class="fa-solid cursor fa-star"></i><i
+                        class="fa-solid cursor fa-star"></i><i class="fa-solid cursor fa-star"></i><i
+                        class="fa-solid cursor fa-star-half-stroke"></i></div>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="items2 items">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/makeup1.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h4 class="card-title">RENEE FAB 5 Matte Finish 5 in 1 Lipstick 7.5G</h4>
+                      <p class="card-text">-26% <strong>₹555.00</strong> </p>
+                      <div class="stars" style="color: gold;"><i class="fa-solid cursor fa-star"></i><i class="fa-solid cursor fa-star"></i><i
+                        class="fa-solid cursor fa-star"></i><i class="fa-solid cursor fa-star"></i><i
+                        class="fa-solid cursor fa-star-half-stroke"></i></div>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="items3 items">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/makeup1.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h4 class="card-title">RENEE FAB 5 Matte Finish 5 in 1 Lipstick 7.5G</h4>
+                      <p class="card-text">-26% <strong>₹555.00</strong> </p>
+                      <div class="stars" style="color: gold;"><i class="fa-solid cursor fa-star"></i><i class="fa-solid cursor fa-star"></i><i
+                        class="fa-solid cursor fa-star"></i><i class="fa-solid cursor fa-star"></i><i
+                        class="fa-solid cursor fa-star-half-stroke"></i></div>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="items4 items">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/makeup1.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h4 class="card-title">RENEE FAB 5 Matte Finish 5 in 1 Lipstick 7.5G</h4>
+                      <p class="card-text">-26% <strong>₹555.00</strong> </p>
+                      <div class="stars" style="color: gold;"><i class="fa-solid cursor fa-star"></i><i class="fa-solid cursor fa-star"></i><i
+                        class="fa-solid cursor fa-star"></i><i class="fa-solid cursor fa-star"></i><i
+                        class="fa-solid cursor fa-star-half-stroke"></i></div>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="items5 items">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/makeup1.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h4 class="card-title">RENEE FAB 5 Matte Finish 5 in 1 Lipstick 7.5G</h4>
+                      <p class="card-text">-26% <strong>₹555.00</strong> </p>
+                      <div class="stars" style="color: gold;"><i class="fa-solid cursor fa-star"></i><i class="fa-solid cursor fa-star"></i><i
+                        class="fa-solid cursor fa-star"></i><i class="fa-solid cursor fa-star"></i><i
+                        class="fa-solid cursor fa-star-half-stroke"></i></div>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="items6 items">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/makeup1.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h4 class="card-title">RENEE FAB 5 Matte Finish 5 in 1 Lipstick 7.5G</h4>
+                      <p class="card-text">-26% <strong>₹555.00</strong> </p>
+                      <div class="stars" style="color: gold;"><i class="fa-solid cursor fa-star"></i><i class="fa-solid cursor fa-star"></i><i
+                        class="fa-solid cursor fa-star"></i><i class="fa-solid cursor fa-star"></i><i
+                        class="fa-solid cursor fa-star-half-stroke"></i></div>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="footer">
+            Made With Love ❤️ by Semantic Error | Ⓒ CopyRights 2022
+        </div>
 
     </section>
     <script src="/static/index.js"></script>
